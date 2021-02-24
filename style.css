@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:verdana;	
+}
+
+/*navigation menu*/
+nav{
+	width:100%;
+	height:80px;
+	background-color:#000;
+	line-height:83px;
+}
+
+nav ul
+{
+ float:right;
+ margin-right:60px;
+}
+
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+}
+
+nav ul li:hover{
+	background-color:#f39d1a;
+	transition:0.8s all;
+	height:80px;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:30px;
+}
+
+li.active{
+background-color:#f39d1a;
+color:white;
+height:80px;
+}
+/*body background*/
+body
+{
+	width:100%;
+	height:100vh;
+	background-image:url(background.jpg);
+	background-size:cover;
+}
+
+/*form for syllabus and semester*/
+.container
+{
+	width:500px;
+	height:400px;
+	text-align:center;
+	background-color:rgba(52,73,94,0.5);
+	border-radius:4px;
+	margin:0 auto;
+	margin-top:100px;
+	
+}
+/*form for subject*/
+.container1
+{
+	width:500px;
+	height:300px;
+	text-align:center;
+	background-color:rgba(52,73,94,0.5);
+	border-radius:4px;
+	margin:0 auto;
+	margin-top:100px;
+	
+}
+
+/*select
+{
+	height:45px;
+	width: 300px;
+	font-size:18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left:30px;
+}*/
+
+select
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none:
+	appearance: none;
+	
+	
+	margin:30px;
+	padding:10px 50px 10px 10px;
+	background: url(select-bg.png) no-repeat 95% center;
+	background-color: #222;
+	color: #fff;
+	border-radius:10px;
+	border:2px solid black;
+	width:200px;
+	text-align:center;
+}
+
+option 
+{
+  cursor: pointer;
+  background-color: #485761;
+  text-align:center;
+}
+
+.form-input
+{
+}
+/*form buttons*/
+.btn-login
+{
+	padding:15px 25px;
+	color: #fff;
+	border-radius:4px;
+	border:none;
+	background-color: #2ECC71;	
+}
+
+.btn-login:hover{
+	background-color:#f39d1a;
+	transition:0.8s all;
+}
